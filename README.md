@@ -12,7 +12,7 @@ This project demonstrates how modern analytics engineering practices can be appl
 
 # Dashboard Preview
 
-![Dashboard Preview](https://chatgpt.com/c/assets/dashboard_preview.png)
+![Dashboard Preview](assets/dashboard_preview.png)
 
 ---
 
@@ -29,6 +29,8 @@ This project demonstrates how modern analytics engineering practices can be appl
 ---
 
 # Quick Demo
+
+![Quick Demo](assets/quick_demo.gif)
 
 The dashboard enables hospital leadership to:
 
@@ -52,6 +54,8 @@ This project builds an **Executive Healthcare Intelligence System** that consoli
 ---
 
 # Architecture
+
+![Architecture Diagram](assets/architecture_diagram.png)
 
 Healthcare Dataset
 ↓
