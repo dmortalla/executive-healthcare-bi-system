@@ -12,7 +12,9 @@ This project demonstrates how modern analytics engineering practices can be appl
 
 # Dashboard Preview
 
-![Dashboard Preview](assets/dashboard_preview.png)
+Executive overview of hospital admissions trends, departmental demand, and patient demographics.
+
+![Hospital Operations Executive Dashboard](assets/dashboard_preview.png)
 
 ---
 
