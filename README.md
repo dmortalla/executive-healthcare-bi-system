@@ -12,7 +12,9 @@ This project demonstrates how modern analytics engineering practices can be appl
 
 # Dashboard Preview
 
-![Dashboard Preview](https://chatgpt.com/c/assets/dashboard_preview.png)
+Executive overview of hospital admissions trends, departmental demand, and patient demographics.
+
+![Hospital Operations Executive Dashboard](assets/dashboard_preview.png)
 
 ---
 
@@ -29,6 +31,8 @@ This project demonstrates how modern analytics engineering practices can be appl
 ---
 
 # Quick Demo
+
+[![Quick Demo](assets/quick_demo.gif)](https://github.com/dmortalla/executive-healthcare-bi-system/assets/quick_demo.mp4)
 
 The dashboard enables hospital leadership to:
 
@@ -51,21 +55,25 @@ This project builds an **Executive Healthcare Intelligence System** that consoli
 
 ---
 
-# Architecture
+# System Architecture
 
-Healthcare Dataset
-↓
-Python Data Preparation
-↓
-SQL Analytics Layer
-↓
-Star Schema Data Model
-↓
-Power BI Semantic Model
-↓
-DAX KPI Calculations
-↓
-Executive Healthcare Dashboard
+```mermaid
+flowchart LR
+
+A[Healthcare Dataset] --> B[Python Data Preparation]
+B --> C[Star Schema Data Model]
+
+C --> D[dim_patients]
+C --> E[dim_departments]
+C --> F[dim_dates]
+C --> G[fact_admissions]
+
+G --> H[Power BI Semantic Model]
+
+H --> I[Executive Dashboard]
+H --> J[Operational Insights]
+H --> K[Patient & Cost Analysis]
+```
 
 ---
 
