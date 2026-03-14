@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+
+.ipynb_checkpoints/
+
+.env
+.env.*
+
+data/raw/*.csv
+
+*.pbix.autosave
