@@ -32,7 +32,9 @@ Executive overview of hospital admissions trends, departmental demand, and patie
 
 # Quick Demo
 
-[Watch the dashboard demo](assets/quick_demo.mp4)
+![Dashboard Demo](assets/quick_demo.gif)
+
+[Download full video demo](assets/quick_demo.mp4)
 
 The dashboard enables hospital leadership to:
 
