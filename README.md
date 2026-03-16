@@ -24,12 +24,10 @@ This project demonstrates how modern analytics engineering practices can be appl
 
 # Quick Demo
 
-![Executive Healthcare Dashboard Demo](assets/quick_demo.gif)
+<img src="assets/quick_demo.gif" width="850">
 
 Interactive Power BI dashboard demonstrating hospital admissions trends,
 department utilization, patient demographics, and cost analysis.
-
-[Download full video demo](assets/quick_demo.mp4)
 
 The dashboard enables hospital leadership to:
 
