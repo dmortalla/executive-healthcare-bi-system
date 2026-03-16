@@ -10,14 +10,6 @@ This project demonstrates how modern analytics engineering practices can be appl
 
 ---
 
-# Dashboard Preview
-
-Executive overview of hospital admissions trends, departmental demand, and patient demographics.
-
-![Hospital Operations Dashboard](assets/dashboard_preview.png)
-
----
-
 # Key Features
 
 * Executive KPI dashboard for hospital performance
@@ -32,7 +24,10 @@ Executive overview of hospital admissions trends, departmental demand, and patie
 
 # Quick Demo
 
-![Dashboard Demo](assets/quick_demo.gif)
+![Executive Healthcare Dashboard Demo](assets/quick_demo.gif)
+
+Interactive Power BI dashboard demonstrating hospital admissions trends,
+department utilization, patient demographics, and cost analysis.
 
 [Download full video demo](assets/quick_demo.mp4)
 
