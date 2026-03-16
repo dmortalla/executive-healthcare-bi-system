@@ -14,7 +14,7 @@ This project demonstrates how modern analytics engineering practices can be appl
 
 Executive overview of hospital admissions trends, departmental demand, and patient demographics.
 
-![Hospital Operations Executive Dashboard](assets/dashboard_preview.png)
+![Hospital Operations Dashboard](assets/dashboard_preview.png)
 
 ---
 
@@ -32,7 +32,7 @@ Executive overview of hospital admissions trends, departmental demand, and patie
 
 # Quick Demo
 
-[![Quick Demo](assets/quick_demo.gif)](https://github.com/dmortalla/executive-healthcare-bi-system/assets/quick_demo.mp4)
+[Watch the dashboard demo](assets/quick_demo.mp4)
 
 The dashboard enables hospital leadership to:
 
