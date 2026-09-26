@@ -1,25 +1,38 @@
-# KPI Definitions
+# 📏 KPI Definitions
 
-## Total Patients
+## 👥 Total Patients
 
-Number of unique patients admitted.
+Number of unique patients represented in the admissions data.
 
-## Admissions
+## 🏥 Admissions
 
-Total hospital admissions.
+Total number of admission records.
 
-## Readmission Rate
+## 🔁 Readmission Rate
 
-Percentage of patients readmitted within 30 days.
+Percentage of admission records classified as readmitted by the project's binary transformation of the source `readmitted` field.
 
-## Average Length of Stay
+For this implementation:
 
-Average number of days patients remain admitted.
+```text
+NO           → Not readmitted
+Other values → Readmitted
+```
 
-## Treatment Cost per Patient
+This metric should not be interpreted specifically as a 30-day readmission rate.
 
-Average treatment cost across all admissions.
+## 🛏️ Average Length of Stay
 
-## Department Utilization
+Average number of days represented by the `length_of_stay` field across admission records.
 
-Total patient volume handled by each department.
+## 💵 Treatment Cost per Patient
+
+Derived treatment-cost indicator used for analytical demonstration.
+
+The source dataset does not provide actual treatment costs. The project creates a proxy using available utilization variables such as procedures, medications, visits, and length of stay.
+
+The resulting values should not be interpreted as actual hospital charges, reimbursements, or accounting records.
+
+## 🏨 Department Utilization
+
+Total admission volume associated with each department.
